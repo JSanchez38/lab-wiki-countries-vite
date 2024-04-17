@@ -1,6 +1,12 @@
+import { Link } from 'react-router-dom'
+
 function Navbar() {
     return (
-        <nav>WikiCountries</nav>
+        <div className='container'>
+            <Link to='/'>
+                WikiCountries
+            </Link>
+        </div>
     )
 }
 
